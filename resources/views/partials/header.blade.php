@@ -38,10 +38,8 @@
                 </li>
             </ul>
         </nav>
-        <div>
-            <h3>
-                <input type="text" placeholder="Search">
-            </h3>
+        <div class="input-container">
+            <input class="my-input" type="text" placeholder="Search">
         </div>
     </div>
 </div>

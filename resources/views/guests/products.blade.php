@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('title', ' - Comics')
+    
 @section('main-content')
     <div>
         <div class="products-wrapper">

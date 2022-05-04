@@ -46,6 +46,17 @@ div.home-header div#header-container nav ul li a {
 div.home-header div#header-container nav ul li a.active, div.home-header div#header-container nav ul li a:hover {
   color: #0c7cec;
 }
+div.home-header div#header-container div.input-container {
+  width: inherit;
+}
+div.home-header div#header-container div.input-container input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #0c7cec;
+  text-align: end;
+  padding: 0.4rem;
+}
 
 div.jumbotron {
   height: 45vh;

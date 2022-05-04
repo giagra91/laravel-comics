@@ -10,51 +10,62 @@ div.home-header{
     height: 14vh;
     margin: 0 auto;
 
-div#header-container{
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1rem;
-
-    img{
-    height: 70%;
-    }
-        
-    nav{
-    height: 100%;
-    line-height: 100px;
-
-    ul{
-    height: 100%;
-    list-style-type: none;
-    display: flex;
-
-        li{
+    div#header-container{
         height: 100%;
-        padding: 0 .3rem;
-        text-transform: uppercase;
-        font-size: .8rem;
-        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1rem;
 
-        &:hover,
-        &.active{
-            border-bottom: 5px solid #0c7cec;
+        img{
+        height: 70%;
         }
-        a{
-            text-decoration: none;
-            font-weight: bold;
-            color: #575757;
+            
+        nav{
+        height: 100%;
+        line-height: 100px;
 
-            &.active,
-            &:hover{
-            color: #0c7cec;
+            ul{
+            height: 100%;
+            list-style-type: none;
+            display: flex;
+
+                li{
+                height: 100%;
+                padding: 0 .3rem;
+                text-transform: uppercase;
+                font-size: .8rem;
+                cursor: pointer;
+
+                &:hover,
+                &.active{
+                    border-bottom: 5px solid #0c7cec;
+                }
+                a{
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: #575757;
+
+                    &.active,
+                    &:hover{
+                    color: #0c7cec;
+                    }
+                }
+                }
             }
         }
+        div.input-container{
+            width: inherit;
+            input{
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 2px solid #0c7cec;
+                text-align: end;
+                padding: .4rem;
+            }
         }
     }
-    }
-}
 }
 div.jumbotron{
     height: 45vh;
