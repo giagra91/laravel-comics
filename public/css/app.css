@@ -49,7 +49,6 @@ div.home-header div#header-container nav ul li a.active, div.home-header div#hea
 
 div.jumbotron {
   height: 45vh;
-  background-color: lightblue;
   background-image: url("/images/jumbotron.jpg");
   background-size: cover;
 }

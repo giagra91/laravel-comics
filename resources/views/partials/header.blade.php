@@ -3,34 +3,37 @@
         <img src="{{ asset("images/dc-logo.png") }}" alt="DC logo">
         <nav >
             <ul>
-                <li class="">
+                <li>
+                    <a href="{{ route("main") }}">Home</a>
+                </li>
+                <li >
                     <a href="#" class="">Characters</a>
                 </li>
-                <li class="">
-                    <a href="#" class="">Comics</a>
+                <li >
+                    <a href="{{route("products")}}" class="">Comics</a>
                 </li>
-                <li class="">
+                <li >
                     <a href="#" class="">Movies</a>
                 </li>
-                <li class="">
+                <li >
                     <a href="#" class="">Tv</a>
                 </li>
-                <li class="">
+                <li >
                     <a href="#" class="">Games</a>
                 </li>
-                <li class="">
+                <li >
                     <a href="#" class="">Collectibles</a>
                 </li>
-                <li class="">
+                <li >
                     <a href="#" class="">Videos</a>
                 </li>
-                <li class="">
+                <li >
                     <a href="#" class="">Fans</a>
                 </li>
-                <li class="">
+                <li >
                     <a href="#" class="">News</a>
                 </li>
-                <li class="">
+                <li >
                     <a href="#" class="">Shop</a>
                 </li>
             </ul>
