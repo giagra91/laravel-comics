@@ -1,1 +1,162 @@
 //
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.home-header{
+    width: 80%;
+    height: 14vh;
+    margin: 0 auto;
+
+div#header-container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+
+    img{
+    height: 70%;
+    }
+
+    nav{
+    height: 100%;
+    line-height: 100px;
+
+    ul{
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+
+        li{
+        height: 100%;
+        padding: 0 .3rem;
+        text-transform: uppercase;
+        font-size: .8rem;
+        cursor: pointer;
+
+        &:hover,
+        &.active{
+            border-bottom: 5px solid #0c7cec;
+        }
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            color: #575757;
+
+            &.active,
+            &:hover{
+            color: #0c7cec;
+            }
+        }
+        }
+    }
+    }
+}
+}
+div.jumbotron{
+    height: 45vh;
+    background-color: lightblue;
+    // background-image: url('/public/images/jumbotron.jpg');
+    background-size: cover;
+}
+
+.text-center{
+text-align: center;
+}
+
+div.products-wrapper{
+width: 100%;
+// height: 14vh;
+background-color: #1c1c1c;
+div#products{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    
+    a{
+    width: 150px;
+    background-color: #0282f9;
+    padding: .6rem 0;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: bold;
+    }
+    a#load-series{
+        margin-top: 2rem;
+
+    }
+    a#current-series{
+        position: absolute;
+        left: 3%;
+        top: -3%;
+    }
+
+}
+}
+div#products-links{
+    width: 100%;
+    height: 16vh;
+    background-color: #0282f9;
+
+    div#links-to-shop{
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    div.single-link{
+        height: 100%;
+        margin: 0 .8rem;
+        display: flex;
+        align-items: center;
+
+        img{
+        height: 35%;
+        }
+
+        p{
+        text-transform: uppercase;
+        margin-left: .5rem;
+        font-weight: bold;
+        font-size: .8rem;
+        }
+    }
+
+
+    }
+}
+div.products-card{
+    width: calc( 100% / 6);
+    height: 200px;
+    padding: 1rem .7rem ;
+
+        img{
+            width: 10vw;
+            height: 10vw;
+            object-fit: cover;
+            object-position: top;
+            padding-bottom: .4rem;
+        }
+
+        p{
+            font-size: .8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        }
