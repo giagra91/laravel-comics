@@ -5,44 +5,43 @@
             <div class="pad-1">
             <h4>Dc comics</h4>
             <ul>
-                <li v-for="(element, index) in comicsLinks" :key="index">
-                <a :href="element.url">
-                    {{element.text}}
+                <li>
+                <a href="#">
+                    Characters
                 </a>
                 </li>
             </ul>
-            <h4>Dc comics</h4>
+            <h4>Shop</h4>
             <ul>
-                <li v-for="(element, index) in shopLinks" :key="index">
-                <a :href="element.url">
-                    {{element.text}}
-                </a>
+                <li>
+                    <a href="#">
+                        Shop Dc
+                    </a>
                 </li>
             </ul>
             </div>
             <div class="pad-1">
             <h4>Dc</h4>
             <ul>
-                <li v-for="(element, index) in dcLinks" :key="index">
-                <a :href="element.url">
-                    {{element.text}}
-                </a>
+                <li>
+                    <a href="#">
+                        Terms of Use
+                    </a>
                 </li>
             </ul>
             </div>
             <div class="pad-1">
             <h4>Sites</h4>
             <ul>
-                <li v-for="(element, index) in sitesLinks" :key="index">
-                <a :href="element.url">
-                    {{element.text}}
-                </a>
+                <li>
+                    <a href="#">
+                        Dc
+                    </a>
                 </li>
             </ul>
             </div>
         </div>
         <div id="top-footer-image">
-            <!-- <img src="../assets/images/dc-logo-bg.png" alt="Dc logo"> -->
         </div>
     </div>
 
@@ -57,19 +56,19 @@
             <div id="footer-follow-us">
                 <h3>Follow us</h3>
                 <a href="#" class="mar-2">
-                <img src="../assets/images/footer-facebook.png" alt="Facebook logo">
+                <img src="{{ asset("images/footer-facebook.png") }}" alt="Facebook logo">
                 </a>
                 <a href="#" class="mar-2">
-                <img src="../assets/images/footer-twitter.png" alt="Twitter logo">
+                <img src="{{ asset("images/footer-twitter.png") }}" alt="Twitter logo">
                 </a>
                 <a href="#" class="mar-2">
-                <img src="../assets/images/footer-youtube.png" alt="Youtube logo">
+                <img src="{{ asset("images/footer-youtube.png") }}" alt="Youtube logo">
                 </a>
                 <a href="#" class="mar-2">
-                <img src="../assets/images/footer-pinterest.png" alt="Pinterest logo">
+                <img src="{{ asset("images/footer-pinterest.png") }}" alt="Pinterest logo">
                 </a>
                 <a href="#" class="mar-2">
-                <img src="../assets/images/footer-youtube.png" alt="Periscope logo">
+                <img src="{{ asset("images/footer-periscope.png") }}" alt="Periscope logo">
                 </a>
             </div>
 
