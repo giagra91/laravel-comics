@@ -26,5 +26,7 @@ Route::get('/singleProduct{index}', function ($index) {
     $comics = config('comics');
     if(is_numeric($index) && $index >= 0 && $index < count($comics)){
         return view('guests.singleProduct', ["comic" => $comics[$index]]);
+    } else {
+        abort(404);
     }
 })->name('single-product');

@@ -44,9 +44,7 @@
                     </h5>
                     <div class="infos-width">
                         @foreach ($comic["artists"] as $artist)
-                            <a href="#">
-                                {{ $artist }},
-                            </a>
+                            <a href="#">{{ $artist }}</a>,
                         @endforeach
                     </div>
                 </div>
@@ -56,9 +54,7 @@
                     </h5>
                     <div class="infos-width">
                         @foreach ($comic["writers"] as $writer)
-                            <a href="#">
-                                {{ $writer }},
-                            </a>
+                            <a href="#">{{ $writer }}</a>,
                         @endforeach
                     </div>
                 </div>
@@ -97,6 +93,26 @@
                         </p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="links-to-buy">
+        <div class="links-wrapper">
+            <div class="shop-link">
+                <span>Digital Comics</span>
+                <img src="{{ asset("images/buy-comics-digital-comics.png") }}" alt="">
+            </div>
+            <div class="shop-link">
+                <span>Shop Dc</span>
+                <img src="{{ asset("images/buy-comics-subscriptions.png") }}" alt="">
+            </div>
+            <div class="shop-link">
+                <span>Comic Shop Locator</span>
+                <img src="{{ asset("images/buy-comics-shop-locator.png") }}" alt="">
+            </div>
+            <div class="shop-link">
+                <span>Subscriptuons</span>
+                <img src="{{ asset("images/buy-comics-merchandise.png") }}" alt="">
             </div>
         </div>
     </div>
