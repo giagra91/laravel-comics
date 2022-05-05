@@ -76,7 +76,40 @@ return [
             "text"=> "Contact Us",
             "url"=> "#",
         ],
-    ]
-]
+    ],
+    "siteLinks" => [
+        [
+            "text" => "DC",
+            "url"=> "#",
+        ],
+        [
+            "text"=> "MAD Magazine",
+            "url"=> "#",
+        ],
+        [
+            "text"=> "DC Kids",
+            "url"=> "#",
+        ],
+        [
+            "text"=> "DC Universe",
+            "url"=> "#",
+        ],
+        [
+            "text"=> "DC Power Visa",
+            "url"=> "#",
+        ],
+    ],
+    "shopLinks" => [
+        [
+            "text" => "DC",
+            "url"=> "#",
+        ],
+        [
+            "text"=> "MAD Magazine",
+            "url"=> "#",
+        ],
+    ],
+    
+];
 
 ?>

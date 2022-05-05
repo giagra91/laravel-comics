@@ -97,7 +97,7 @@ div#products{
     align-items: center;
     position: relative;
     
-    a{
+    a.buttons{
     width: 150px;
     background-color: #0282f9;
     padding: .6rem 0;
@@ -175,8 +175,15 @@ div.products-card{
         }
 
         a{
+            font-size: .9rem;
             text-decoration: none;
-            background-color: inherit;
+            text-transform: uppercase;
+            color: white;
+            font-weight: bold;
+
+            &:hover{
+                color: $lightBlueBrandColor;
+            }
         }
 }
 
@@ -388,11 +395,6 @@ div.comic-content-bottom{
                 display: flex;
                 justify-content: space-between;
                 gap: 4rem;
-
-                a{
-                    font-size: .9rem;
-                    text-decoration: none;
-                }
             }
         }
     }

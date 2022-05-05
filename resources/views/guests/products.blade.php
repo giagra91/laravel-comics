@@ -6,16 +6,16 @@
     <div>
         <div class="products-wrapper">
             <div id="products">
-            <a id="current-series" href="#">Current Series</a>
+            <a class="buttons" id="current-series" href="#">Current Series</a>
             @foreach ($comics as $index => $comicsElement)
             <div class="products-card">
                 <img src="{{ $comicsElement["thumb"] }}" alt="{{ $comicsElement["title"] }}">
                 {{-- <p>{{ $comicsElement["title"] }}</p> --}}
-                <a href="{{ route("single-product", ["index" => $index]) }}">{{ $comicsElement["title"] }}</a>
+                <a href="{{ route("single-product", ["index" => $index]) }}">{{ $comicsElement["series"] }}</a>
                 
             </div>
             @endforeach
-            <a id="load-series" href="#">Load more</a>
+            <a class="buttons" id="load-series" href="#">Load more</a>
             </div>
         </div>
         <div id="products-links">

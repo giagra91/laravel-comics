@@ -12,15 +12,16 @@
                         </a>
                     </li>
                 @endforeach
-                {{-- @dump($links) --}}
             </ul>
             <h4>Shop</h4>
             <ul>
-                <li>
-                    <a href="#">
-                        Shop Dc
-                    </a>
-                </li>
+                @foreach ($links["shopLinks"] as $link)
+                    <li>
+                        <a href="{{ $link["url"] }}">
+                            {{ $link["text"] }}
+                        </a>
+                    </li>
+                @endforeach
             </ul>
             </div>
             <div class="pad-1">
@@ -38,11 +39,13 @@
             <div class="pad-1">
             <h4>Sites</h4>
             <ul>
-                <li>
-                    <a href="#">
-                        Dc
-                    </a>
-                </li>
+                @foreach ($links["siteLinks"] as $link)
+                    <li>
+                        <a href="{{ $link["url"] }}">
+                            {{ $link["text"] }}
+                        </a>
+                    </li>
+                @endforeach
             </ul>
             </div>
         </div>

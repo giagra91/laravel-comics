@@ -88,7 +88,7 @@ div.products-wrapper div#products {
   align-items: center;
   position: relative;
 }
-div.products-wrapper div#products a {
+div.products-wrapper div#products a.buttons {
   width: 150px;
   background-color: #0282f9;
   padding: 0.6rem 0;
@@ -158,8 +158,14 @@ div.products-card p {
   text-transform: uppercase;
 }
 div.products-card a {
+  font-size: 0.9rem;
   text-decoration: none;
-  background-color: inherit;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+div.products-card a:hover {
+  color: #0282f9;
 }
 
 div#footer-top {
@@ -340,10 +346,6 @@ div.comic-content-bottom div.comic-container div.specs div.comic-infos {
   display: flex;
   justify-content: space-between;
   gap: 4rem;
-}
-div.comic-content-bottom div.comic-container div.specs div.comic-infos a {
-  font-size: 0.9rem;
-  text-decoration: none;
 }
 
 .uppercase {
