@@ -3,9 +3,6 @@
         <img src="{{ asset("images/dc-logo.png") }}" alt="DC logo">
         <nav >
             <ul>
-                <li>
-                    <a href="{{ route("main") }}">Home</a>
-                </li>
                 <li >
                     <a href="#" class="">Characters</a>
                 </li>

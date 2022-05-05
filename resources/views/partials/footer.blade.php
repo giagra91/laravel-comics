@@ -5,11 +5,14 @@
             <div class="pad-1">
             <h4>Dc comics</h4>
             <ul>
-                <li>
-                <a href="#">
-                    Characters
-                </a>
-                </li>
+                @foreach ($links["comicsLinks"] as $link)
+                    <li>
+                        <a href="{{ $link["url"] }}">
+                            {{ $link["text"] }}
+                        </a>
+                    </li>
+                @endforeach
+                {{-- @dump($links) --}}
             </ul>
             <h4>Shop</h4>
             <ul>
@@ -23,11 +26,13 @@
             <div class="pad-1">
             <h4>Dc</h4>
             <ul>
-                <li>
-                    <a href="#">
-                        Terms of Use
-                    </a>
-                </li>
+                @foreach ($links["dcLinks"] as $link)
+                    <li>
+                        <a href="{{ $link["url"] }}">
+                            {{ $link["text"] }}
+                        </a>
+                    </li>
+                @endforeach
             </ul>
             </div>
             <div class="pad-1">

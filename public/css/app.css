@@ -1,3 +1,7 @@
+.infos-width {
+  width: 65%;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -153,6 +157,10 @@ div.products-card p {
   font-weight: bold;
   text-transform: uppercase;
 }
+div.products-card a {
+  text-decoration: none;
+  background-color: inherit;
+}
 
 div#footer-top {
   width: 100%;
@@ -238,4 +246,110 @@ div#footer-bottom div#footer-bottom-wrapper div#footer-follow-us h3 {
   padding: 0 1rem;
   font-size: 1rem;
   color: #0282f9;
+}
+
+div.top-banner-product {
+  height: 12vh;
+  background-color: #0282f9;
+  position: relative;
+}
+div.top-banner-product img {
+  position: absolute;
+  left: 20%;
+  bottom: 25%;
+}
+
+div.comic-content-top {
+  min-height: 40vh;
+}
+div.comic-content-top div.comic-container {
+  width: 65%;
+  min-height: 40vh;
+  padding: 2rem 0;
+  margin: 0 auto;
+  display: flex;
+  gap: 3rem;
+}
+div.comic-content-top div.comic-container div.left-comic-container {
+  width: 70%;
+  min-height: 40vh;
+}
+div.comic-content-top div.comic-container div.left-comic-container h2 {
+  text-transform: uppercase;
+  color: #003f5e;
+}
+div.comic-content-top div.comic-container div.left-comic-container div.comic-price {
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  color: white;
+  background-color: #55ba59;
+  display: flex;
+  justify-content: space-between;
+}
+div.comic-content-top div.comic-container div.left-comic-container p.description {
+  color: gray;
+}
+div.comic-content-top div.comic-container div.right-comic-container {
+  width: 30%;
+}
+
+div.comic-content-bottom {
+  min-height: 40vh;
+  background-color: #f6f6f6;
+}
+div.comic-content-bottom div.comic-container {
+  width: 65%;
+  min-height: 40vh;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  margin: 0 auto;
+  display: flex;
+  gap: 3rem;
+}
+div.comic-content-bottom div.comic-container div.talent {
+  width: 55%;
+}
+div.comic-content-bottom div.comic-container div.talent h3 {
+  color: #003f5e;
+  margin-bottom: 2rem;
+}
+div.comic-content-bottom div.comic-container div.talent div.comic-infos {
+  padding: 0.8rem 0;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+div.comic-content-bottom div.comic-container div.talent div.comic-infos a {
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+div.comic-content-bottom div.comic-container div.specs {
+  width: 45%;
+}
+div.comic-content-bottom div.comic-container div.specs h3 {
+  color: #003f5e;
+  margin-bottom: 2rem;
+}
+div.comic-content-bottom div.comic-container div.specs div.comic-infos {
+  padding: 0.8rem 0;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+div.comic-content-bottom div.comic-container div.specs div.comic-infos a {
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bg-none {
+  background-color: none;
 }

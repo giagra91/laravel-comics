@@ -7,10 +7,11 @@
         <div class="products-wrapper">
             <div id="products">
             <a id="current-series" href="#">Current Series</a>
-            @foreach ($comics as $comicsElement)
+            @foreach ($comics as $index => $comicsElement)
             <div class="products-card">
                 <img src="{{ $comicsElement["thumb"] }}" alt="{{ $comicsElement["title"] }}">
-                <p>{{ $comicsElement["title"] }}</p>
+                {{-- <p>{{ $comicsElement["title"] }}</p> --}}
+                <a href="{{ route("single-product", ["index" => $index]) }}">{{ $comicsElement["title"] }}</a>
                 
             </div>
             @endforeach

@@ -13,11 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('layouts.main');
-})->name("main");
+// Route::get('/', function () {
+//     return view('layouts.main');
+// })->name("main");
 
-Route::get('/products', function () {
+Route::get('/', function () {
     $comics = config('comics');
     return view('guests.products', ["comics" => $comics]);
 })->name('products');
+
+Route::get('/singleProduct{index}', function ($index) {
+    $comics = config('comics');
+    if(is_numeric($index) && $index >= 0 && $index < count($comics)){
+        return view('guests.singleProduct', ["comic" => $comics[$index]]);
+    }
+})->name('single-product');

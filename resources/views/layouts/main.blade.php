@@ -20,7 +20,7 @@
     </main>
 
     <footer>
-        @include('partials.footer')
+        @include('partials.footer', ["links" => config("footerLinks")])
     </footer>
     @yield('body-scripts')
 </body>
