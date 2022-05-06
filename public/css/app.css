@@ -347,6 +347,9 @@ div.comic-content-bottom div.comic-container div.specs div.comic-infos {
   justify-content: space-between;
   gap: 4rem;
 }
+div.comic-content-bottom div.comic-container div.specs a {
+  text-decoration: none;
+}
 
 div.links-to-buy {
   min-height: 15vh;
