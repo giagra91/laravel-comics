@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        @include('partials.header')
+        @include('partials.header', ["links" => config("headerLinks")])
     </header>
 
     <main>

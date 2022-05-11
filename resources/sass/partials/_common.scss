@@ -1,3 +1,11 @@
 .infos-width{
     width: 65%;
 }
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.active{
+    border-bottom: 5px solid $lightBlueBrandColor;
+}

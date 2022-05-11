@@ -6,7 +6,7 @@
                 <li >
                     <a href="#" class="">Characters</a>
                 </li>
-                <li >
+                <li class="{{ Route::currentRouteName() == "products" ? "active" : "" }}" >
                     <a href="{{route("products")}}" class="">Comics</a>
                 </li>
                 <li >

@@ -2,6 +2,14 @@
   width: 65%;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+.active {
+  border-bottom: 5px solid #0282f9;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -383,12 +391,4 @@ div.links-to-buy div.links-wrapper div.shop-link span {
 div.links-to-buy div.links-wrapper div.shop-link img {
   height: 100%;
   filter: brightness(50%);
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.bg-none {
-  background-color: none;
 }
